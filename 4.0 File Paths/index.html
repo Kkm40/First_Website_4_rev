@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lec.25 Computer File Paths</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+        <h1>All the Animals</h1> <br>
+        <h1>Rabbit:</h1>
+        <img src="./Folder0/rabbit.png"><br>
+        <h2>Cat:</h2>
+        <img src="./Folder0/Folder3/cat.png"><br>
+        <h3>Dog:</h3>
+        <img src="./dog.png"><br>
+        <h1>Fish:</h1>
+        <img src="./Folder1/fish.png"><br>
+        <h1>Bird:</h1>
+        <img src="./Folder1/Folder2/bird.png"><br>
+
+        <p><b>Direct image access to previous folder via relative path</b></p>
+        <img src="../karan.jpg">
+
+        <h2><mark>What's in the lecture is all detailed below and its implementation pic is also uploaded</mark></h2><br>
+        <p style="font-size:20px"><b>There are two types of path that we can access in our hard drive. They are listed below.</b></p>
+        <b>
+        <ol>
+            <li style="font-size:18px">Absolute path</li>
+            <p>this is the basic path that u see in ur address bat of your file explorer.
+                <br> For ex, to access structured_way folder of web develepment,
+            <br>in src=<mark>"C:\Users\karan\Desktop\web development\structured_way"</mark> </p>
+
+            <li style="font-size:18px">Relative path</li>
+            <p>if <mark>image src="./any folder or any file etc after  it"</mark><br>
+            it means check the required file in the same directory<br>
+             where the .html file of the webpage is created say index.htm l</p><br>
+             <p>if <mark>image src="../any folder or any file etc after  it</mark></p>
+             <p>it means to check the required file in the previous directory</p>
+             <p>form where the say index . html page is created</p><br>
+
+             <p style="font-size:19px">basically ,<br> if <mark>1 dot(./)</mark> before relative path,then console check within the file where index. html file is stored</p>
+             <p style="font-size:19px">if <mark>2 dot(../)</mark> before relative path,then system checks the required file in previous folder from there the  say index. html file is created. </p>
+
+        </ol>
+        </b>
+        <img src="./lec25.png" alt="all about lec 25:computer file paths">
+        
+        
+
+        
+
+
+        
+    </body>
+</html>
